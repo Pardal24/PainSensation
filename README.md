@@ -1,12 +1,12 @@
 # PainSensation
 
 To Do:
-  Trim Dataset in order to every trial has the same number of frames and touch values
-  Verify the validation code for the DMBN_2inputs.ipynb
-  Divide the dataset into training, validation and test
-  Verify the Memory problems
-  Only use around 50k steps
-  Develop the pipeline
+- [x] Trim Dataset in order to every trial has the same number of frames and touch values
+- [x]Verify the validation code for the DMBN_2inputs.ipynb
+- [x]Divide the dataset into training, validation and test
+- [x] Verify the Memory problems
+- [x]Only use around 50k steps
+- [x]Develop the pipeline
 
 Pipeline:
 After training, at each 1k step I should test and save it in a folder called Snap_epoch_x (being x the current number of the step)
